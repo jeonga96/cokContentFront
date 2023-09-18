@@ -1,0 +1,716 @@
+/* /home ============================================ */
+.home {
+  width: 100%;
+}
+.home h1 {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  font-family: "Pretendard-SemiBold";
+  text-align: center;
+}
+.home h2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  font-family: "Pretendard-SemiBold";
+}
+.home > div {
+  width: 100%;
+  height: auto;
+  padding: 30px 10px;
+  border-top: 1px solid #eee;
+}
+.home > div > div:not(:last-child) {
+  padding-bottom: 25px;
+}
+
+/* contents ============================================ */
+.commonContainer {
+  width: 100%;
+  height: auto;
+}
+.commonContainer ul {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.commonContainer li {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 22px;
+}
+.commonContainer li:first-child {
+  margin-top: 10px;
+}
+.commonContainerEvent li {
+  margin-left: -6px;
+}
+/* .commonContainerEvent li:first-child {
+  margin-left: -10px;
+} */
+
+/* ---------------------------------------------------------------- */
+.eventAddHeader {
+  padding: 15px 0;
+}
+.eventAddHeader > div {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eventAddHeaderImg {
+  float: left;
+  margin-right: 10px;
+}
+.eventAddHeaderImg img {
+  width: 18px;
+  height: 18px;
+}
+.eventAddHeaderText {
+  float: left;
+  text-align: center;
+  line-height: 1;
+}
+.eventAddHeaderText h2 {
+  font-size: 16px;
+  padding-top: 10px;
+}
+.eventAddHeaderText span {
+  font-size: 12px;
+  color: #878787;
+}
+.commonContainerEvent {
+  background-color: none;
+}
+
+.commonContainerEventForm {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.eventFormWrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.eventFormWrap > div:nth-child(1) {
+  width: 30%;
+}
+
+.eventFormWrap > div:nth-child(2) {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.eventFormWrap h3,
+.eventFormWrap h4,
+.eventFormWrap label {
+  font-family: "Pretendard-Bold";
+  font-size: 14px;
+}
+
+.commonContainerEventForm .eventReqError {
+  width: 100%;
+  font-size: 12px;
+  color: red;
+  text-align: right;
+  margin: 0 10px 15px 0;
+}
+
+.eventFormCheck {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+  float: left;
+}
+.eventFormCheck label {
+  font-size: 12px;
+  margin-left: 6px;
+}
+.eventFormCheck input {
+  display: inline-block;
+  margin-right: 2px;
+}
+input[type="radio"],
+span {
+  vertical-align: middle;
+}
+
+.eventFormText {
+  width: 100%;
+  border: 1px solid rgb(225 225, 225);
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.eventFormText input,
+.eventFormText textarea {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Pretendard-Bold";
+  overflow-wrap: break-word;
+}
+
+.eventFormText input::placeholder,
+.eventFormText textarea::placeholder {
+  resize: none;
+  white-space: pre-wrap;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+.eventCheck {
+  margin: 4px 0;
+  margin-left: 10px;
+  width: 100%;
+}
+.eventCheck input {
+  margin-top: 4px;
+}
+.eventCheck label {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.Toastify__toast-body > div:last-child {
+  font-size: 14px;
+  font-family: "Pretendard-SemiBold";
+  color: var(--color_black_dark);
+}
+
+/* ---------------------------------------------------------------- */
+
+.contntsPiece {
+  height: auto;
+  border: 2px solid black;
+}
+.contentsWrap h3 {
+  font-family: "Pretendard-SemiBold";
+  margin-bottom: 25px;
+}
+
+.contentsCenterWrap h2 {
+  text-align: center;
+}
+
+.thinContntsPiece {
+  height: auto;
+  border: 1px solid black;
+}
+.contntsPiece img,
+.thinContntsPiece img {
+  width: 100%;
+}
+
+.iconWrap {
+  display: flex;
+  padding: 15px 0 10px;
+}
+.iconWrap-iconPart {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 0.625rem;
+}
+.commonContainer .iconWrap-iconPartWide {
+  width: 25%;
+}
+.iconWrap-iconPart img {
+  width: 42px;
+  height: 42px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 6px;
+}
+.iconWrap-iconPart > span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: "Pretendard-Medium";
+  font-size: 12px;
+  color: #000;
+}
+
+.iconWrap-textPart {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.commonContainer .iconWrap-textPartWide {
+  width: 75%;
+}
+.iconWrap-textPart > span {
+  display: block;
+  padding: 5px;
+}
+.iconWrap-textPart span {
+  font-size: 15px;
+  font-family: "Pretendard-ExtraBold";
+  line-height: 85%;
+}
+
+.iconWrap-textPart div {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  margin: 0 2px;
+}
+.iconWrap-textPart img {
+  position: absolute;
+  display: block;
+  top: -16px;
+}
+
+/* component : EventPrice */
+/* 이벤트 가격 */
+.pricePiece {
+  position: relative;
+  height: 120px;
+  transition: all 500ms ease-in;
+  background-color: var(--color_white_basic);
+}
+.pricePieceWrap {
+  display: flex;
+  height: 100%;
+  font-family: "OSeongandHanEum";
+}
+.pricePieceWrap > img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 14px 0 0 10px;
+  transition: all 500ms ease-in;
+}
+.pricePieceWrap > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  padding: 30px 6px;
+}
+.pricePieceWrap > div > span {
+  display: block;
+  font-size: 14px;
+  padding: 6px 0;
+  transition: all 500ms ease-in;
+}
+.pricePieceWrap i:last-child {
+  width: auto;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  display: block;
+  right: -20px;
+  top: 50%;
+  bottom: 50%;
+  margin: auto 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--color_orange_basic);
+  font-size: 13px;
+  text-align: center;
+  line-height: 38px;
+  color: var(--color_white_basic);
+}
+.pricePieceWrap svg {
+  height: 12px;
+  width: 12px;
+  padding: 0 8px;
+}
+.cancleText {
+  position: relative;
+  padding: 0 2px;
+}
+.cancleText span {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  bottom: 50%;
+  margin: 0 auto;
+  width: 100%;
+  height: 2px;
+}
+/* ============================================================= */
+/* component : common */
+
+.buttonWrapEvent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.buttonWrapEvent button,
+.buttonWrapEvent a {
+  display: inline-block;
+  width: 110px;
+  height: auto;
+  padding: 5px 0;
+  margin: 0 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+  font-family: "Pretendard-Bold";
+  font-size: 14px;
+  word-spacing: -2px;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 5px 0 15px;
+}
+.buttonWrap button,
+.buttonWrap a {
+  display: inline-block;
+  width: auto;
+  min-width: 70px;
+  height: auto;
+  padding: 4px 8px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 3px solid black;
+  text-align: center;
+  font-family: "Pretendard-SemiBold";
+  font-size: 13px;
+}
+
+.contentsWrap button,
+.contentsWrap a {
+  border: 3px solid black;
+  padding: 2px 20px;
+  font-family: "Pretendard-SemiBold";
+}
+
+header {
+  width: 90%;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  transition: all 500ms ease-in;
+}
+header img {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+header div {
+  width: auto;
+  height: auto;
+  margin-left: 3px;
+}
+
+/* .contentsCenterWrap {
+  width: auto;
+  height: auto;
+  background-color: beige;
+} */
+
+/* mob size ============================================================= */
+@media screen and (max-width: 599px) {
+  .commonBox header {
+    max-width: 350px;
+    padding-bottom: 5px;
+  }
+  header img {
+    width: 17px;
+    height: 17px;
+  }
+  h2 {
+    font-family: "Pretendard-Bold";
+    word-spacing: -1px;
+    font-size: 16px;
+  }
+  /*  eventprice page -------------------------------------------- */
+  .priceWrap {
+    max-width: 350px;
+  }
+
+  .contentsCenterWrap {
+    width: 100%;
+    max-width: 360px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+  }
+  .contentsCenterWrap > img {
+    width: 100%;
+  }
+}
+/* // @media screen and (max-width: 599px) */
+
+/* tab, pc size ============================================================= */
+@media screen and (min-width: 600px) {
+  .commonBox header {
+    width: 550px;
+    padding-bottom: 5px;
+  }
+  header img {
+    width: 30px;
+    height: 30px;
+  }
+  header span,
+  h2 {
+    font-size: 20px;
+  }
+  h2 {
+    font-family: "Pretendard-Bold";
+  }
+  .contentsCenterWrap,
+  .commonContainerEventForm {
+    width: 550px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+  }
+  .contentsCenterWrap > img {
+    width: 100%;
+  }
+  /*  eventprice page -------------------------------------------- */
+  .commonContainer ul {
+    width: 550px;
+  }
+  .iconWrap {
+    padding: 20px 0;
+  }
+  .pricePiece {
+    position: relative;
+    height: 180px;
+    background-color: var(--color_white_basic);
+    border-radius: 15px;
+    margin: 20px 0;
+  }
+  /* .pricePieceWrap {
+    display: flex;
+    height: 100%;
+    font-family: "OSeongandHanEum";
+  } */
+  .pricePieceWrap > img {
+    width: 150px;
+    height: 150px;
+    margin: 20px 20px 0;
+  }
+  .pricePieceWrap > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 180px);
+    height: 100%;
+    padding: 30px 10px;
+  }
+  .pricePieceWrap > div > span {
+    display: block;
+    font-size: 20px;
+    padding: 14px 0;
+  }
+
+  .pricePieceWrap svg {
+    height: 15px;
+    width: 15px;
+    padding: 0 8px;
+  }
+  .pricePieceWrap > i:last-child {
+    right: -22px;
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 45px;
+  }
+
+  .buttonWrap button,
+  .buttonWrap a {
+    min-width: 110px;
+    margin: 0 12px;
+    font-size: 20px;
+  }
+}
+/* // @media screen and (min-width: 600px) */
+
+.grandopen {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color_green_primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.grandopen h2 {
+  text-align: center;
+  color: var(--color_white_basic);
+}
+/* Privacy ======================================================================== */
+.textBox header {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+.textBox h2 {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "Pretendard-SemiBold";
+}
+.textBox h3 {
+  display: block;
+  font-size: 24px;
+  font-family: "Pretendard-SemiBold";
+}
+
+.textBox h4 {
+  font-size: 22px;
+  font-family: "Pretendard-SemiBold";
+  padding: 30px 0 20px;
+}
+
+.textBox header img {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: auto;
+  height: 68px;
+}
+
+@media screen and (max-width: 430px) {
+  .textBox header img {
+    display: none;
+  }
+}
+
+.textContentWrap {
+  padding: 20px;
+}
+.privacyPiece {
+  padding: 25px 0;
+  border-bottom: 1px solid #eee;
+}
+.privacyPiece:last-child {
+  border-bottom: none;
+}
+.privacyPiece h5 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.privacyPiece div,
+.privacyPieceNoneTitle div {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #242424;
+}
+.textContentWrap table {
+  width: 100%;
+  border-spacing: collapse;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.textContentWrap caption {
+  margin-bottom: 6px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 800;
+}
+.textContentWrap td,
+.textContentWrap th {
+  border: 1px solid #cfcfcf;
+
+  color: #242424;
+}
+.textContentWrap th {
+  background-color: #fafaf6;
+  padding: 8px 0;
+  font-weight: 800;
+}
+.textContentWrap td {
+  padding: 8px 6px;
+  text-align: center;
+}
+
+.eventFormLeft {
+  width: 30%;
+  padding: 5px 0 5px 5px;
+  vertical-align: top;
+}
+
+.eventFormRight {
+  width: 100%;
+  padding: 5px 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.eventFormRight > div {
+  margin-bottom: 5px;
+}
+
+.eventFormText {
+  width: 90%;
+}
+
+.eventFormLeft h3,
+.eventFormCheck label {
+  font-family: "Pretendard-Bold";
+  font-size: 14px;
+}
+
+.eventFormCheck .eventFormCheckH4 {
+  font-size: 11px;
+}
+
+.eventCheck tbody tr div h4 {
+  font-size: 12px;
+}
+
+.eventCheck tbody tr div input {
+  float: left;
+  margin: 4px 3px 4px 0;
+}
+
+.eventCheck tbody tr div h4 {
+  float: left;
+  padding: 5px 2% 0 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #878787;
+  outline: none;
+  margin-right: 5px;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background-color: var(--color_orange_basic);
+  border: none;
+}
+
+.eventFormText input[type="text"]::placeholder {
+  line-height: 1.5;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
